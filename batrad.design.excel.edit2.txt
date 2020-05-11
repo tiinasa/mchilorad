@@ -1,0 +1,92 @@
+sample	sample_short	region	comuna	region_num	UTME	UTMS	Time.Zone	Latitude	Longitude	Age	Sex	Weight	Totallenght	Forearmlenght	Traguslenght	Traguswidth	Earlength	Earwidth	fifthfingerlenght	region_num_col	region_short	comunashort	replicate	hasreplicate	regioncol	missing	dnaconc	regioncol_corr	region_num_corr	region_corr
+126A	126	Araucanía	Villarrica	3	750447	5645825	18H	-39.285082	-72.09628668	A		NA	NA	36.2	NA	NA	NA	NA	NA	green	Ara	Vil	1	FALSE	lightgreen	5083	5377	lightgreen	3	Araucanía
+1480A	1480	Aysén	Lago Verde	4	272328	5097680	19G	-44.238521	-71.851127	A		NA	NA	39.9	NA	NA	NA	NA	NA	blue	Ays	Ver	1	TRUE	lightblue	3101	2373	lightblue	4	Coyhaique
+1480B	1480	Aysén	Lago Verde	4	272328	5097680	19G	-44.238521	-71.851127	A		NA	NA	39.9	NA	NA	NA	NA	NA	blue	Ays	Ver	2	TRUE	lightblue	3164	2373	lightblue	4	Coyhaique
+167A	167	Aysén	Puerto Aysen	4	679619	4973069	18G	-45.354771	-72.70681106	A	M	NA	NA	34.2	NA	NA	NA	NA	NA	blue	Ays	Ays	1	TRUE	blue	7937	6163	blue	4	Aysén
+167B	167	Aysén	Puerto Aysen	4	679619	4973069	18G	-45.354771	-72.70681106	A	M	NA	NA	34.2	NA	NA	NA	NA	NA	blue	Ays	Ays	2	TRUE	blue	8340	6163	blue	4	Aysén
+198A	198	Aysén	Puerto Aysen	4	679619	4973069	18G	-45.354771	-72.70681106	A	H	NA	NA	36.2	NA	NA	NA	NA	NA	blue	Ays	Ays	1	TRUE	blue	12267	2553	blue	4	Aysén
+198B	198	Aysén	Puerto Aysen	4	679619	4973069	18G	-45.354771	-72.70681106	A	H	NA	NA	36.2	NA	NA	NA	NA	NA	blue	Ays	Ays	2	TRUE	blue	11247	2553	blue	4	Aysén
+253A	253	Maule	Curico	2	294104	6126797	19H	-34.966525	-71.25523393	A	M	NA	NA	37.4	NA	NA	NA	NA	NA	red	Mau	Cur	1	FALSE	salmon	32314	694	salmon	2	Maule
+256A	256	Aysén	Puerto Aysen	4	679619	4973069	18G	-45.354771	-72.70681106	A	M	NA	NA	36.8	NA	NA	NA	NA	NA	blue	Ays	Ays	1	TRUE	blue	5044	2689	blue	4	Aysén
+256B	256	Aysén	Puerto Aysen	4	679619	4973069	18G	-45.354771	-72.70681106	A	M	NA	NA	36.8	NA	NA	NA	NA	NA	blue	Ays	Ays	2	TRUE	blue	3341	2689	blue	4	Aysén
+260A	260	Aysén	Puerto Aysen	4	679619	4973069	18G	-45.354771	-72.70681106	A	M	NA	NA	33.9	NA	NA	NA	NA	NA	blue	Ays	Ays	1	FALSE	blue	3178	4708	blue	4	Aysén
+321A	321	Metropolitana	Las Condes	2	359099	6302051	19H	-33.398303	-70.51509469	A		NA	NA	38.7	NA	NA	NA	NA	NA	red	Met	Con	1	FALSE	red3	19127	1410	red3	2	Metropolitana
+410A	410	Aysén	Coyhaique	4	730576	4948365	18G	-45.561848	-72.04543466	A	H	7.9	87	38.9	5.6	1.6	10.6	6.9	45	blue	Ays	Coy	1	FALSE	lightblue	20256	33923	lightblue	4	Coyhaique
+411A	411	Aysén	Coyhaique2	4	694589	5089310	18G	-44.305737	-72.56037601	A	H	7.6	90.5	38.5	5.3	1.3	10.9	5.6	43.2	blue	Ays	Coy	1	FALSE	lightblue	5274	849	lightblue	4	Coyhaique
+414A	414	Aysén	Coyhaique	4	728678	4947963	18G	-45.566087	-72.06953519	A	H	7.1	88	40.3	5.8	1.7	10.4	5.7	47.2	blue	Ays	Coy	1	FALSE	lightblue	4037	1724	lightblue	4	Coyhaique
+416A	416	Aysén	Coyhaique	4	730576	4948365	18G	-45.561848	-72.04543466	A	H	8.2	88.8	38.8	5.7	1.4	10.6	6.6	46.4	blue	Ays	Coy	1	TRUE	lightblue	10843	2292	lightblue	4	Coyhaique
+416B	416	Aysén	Coyhaique	4	730576	4948365	18G	-45.561848	-72.04543466	A	H	8.2	88.8	38.8	5.7	1.4	10.6	6.6	46.4	blue	Ays	Coy	2	TRUE	lightblue	3682	2292	lightblue	4	Coyhaique
+423A	423	Magallanes	Puerto Natales	5	679465	4270236	18F	-51.669524	-72.40468026	A	H	NA	85.4	38.8	6	1.6	11.4	7.2	44.8	cyan	Mag	Nat	1	TRUE	purple1	7389	1013	purple1	5	Magallanes
+423B	423	Magallanes	Puerto Natales	5	679465	4270236	18F	-51.669524	-72.40468026	A	H	NA	85.4	38.8	6	1.6	11.4	7.2	44.8	cyan	Mag	Nat	2	TRUE	purple1	8395	1013	purple1	5	Magallanes
+430A	430	Aysén	Coyhaique	4	731161	4948645	18G	-45.559139	-72.03808095	A	H	NA	NA	38.9	NA	NA	NA	NA	NA	blue	Ays	Coy	1	TRUE	lightblue	5172	1306	lightblue	4	Coyhaique
+430B	430	Aysén	Coyhaique	4	731161	4948645	18G	-45.559139	-72.03808095	A	H	NA	NA	38.9	NA	NA	NA	NA	NA	blue	Ays	Coy	2	TRUE	lightblue	4554	1306	lightblue	4	Coyhaique
+432A	432	Araucanía	Temuco	3	709246	5708941	18H	-38.727988	-72.59287963	J	H	4.4	80.9	37.1	4.1	1.4	10	3.4	42.6	green	Ara	Tem	1	FALSE	lightgreen	5210	3763	lightgreen	3	Araucanía
+437A	437	Aysén	Puerto Aysen	4	680091	4977719	18G	-45.312844	-72.70248186	J	M	5.8	74.7	34.6	3.8	1.5	9.9	5.1	33	blue	Ays	Ays	1	TRUE	blue	3471	4566	blue	4	Aysén
+437B	437	Aysén	Puerto Aysen	4	680091	4977719	18G	-45.312844	-72.70248186	J	M	5.8	74.7	34.6	3.8	1.5	9.9	5.1	33	blue	Ays	Ays	2	TRUE	blue	3238	4566	blue	4	Aysén
+442A	442	Aysén	Puerto Aysen	4	680091	4977719	18G	-45.312844	-72.70248186	J	M	6.2	77.4	36.8	5.4	1.4	9.7	5.7	39.6	blue	Ays	Ays	1	FALSE	blue	3451	1866	blue	4	Aysén
+443A	443	Aysén	Puerto Aysen	4	680091	4977719	18G	-45.312844	-72.70248186	J	M	6.2	72.3	34.1	NA	NA	NA	NA	34.6	blue	Ays	Ays	1	TRUE	blue	2985	1884	blue	4	Aysén
+443B	443	Aysén	Puerto Aysen	4	680091	4977719	18G	-45.312844	-72.70248186	J	M	6.2	72.3	34.1	NA	NA	NA	NA	34.6	blue	Ays	Ays	2	TRUE	blue	3198	1884	blue	4	Aysén
+461A	461	Magallanes	Puerto Natales	5	671837	4265888	18F	-51.71095	-72.51273744	A	H	NA	NA	40	NA	NA	NA	NA	NA	cyan	Mag	Nat	1	TRUE	purple1	4779	2124	purple1	5	Magallanes
+461B	461	Magallanes	Puerto Natales	5	671837	4265888	18F	-51.71095	-72.51273744	A	H	NA	NA	40	NA	NA	NA	NA	NA	cyan	Mag	Nat	2	TRUE	purple1	4156	2124	purple1	5	Magallanes
+463A	463	Araucanía	Villarrica	3	750447	5645825	18H	-39.285082	-72.09628668	A	H	NA	NA	38.6	NA	NA	NA	NA	NA	green	Ara	Vil	1	FALSE	lightgreen	2525	3972	lightgreen	3	Araucanía
+464A	464	Araucanía	Villarrica	3	750447	5645825	18H	-39.285082	-72.09628668	A	H	NA	NA	39.8	NA	NA	NA	NA	NA	green	Ara	Vil	1	TRUE	lightgreen	3201	914	lightgreen	3	Araucanía
+464B	464	Araucanía	Villarrica	3	750447	5645825	18H	-39.285082	-72.09628668	A	H	NA	NA	39.8	NA	NA	NA	NA	NA	green	Ara	Vil	2	TRUE	lightgreen	2969	914	lightgreen	3	Araucanía
+465A	465	Araucanía	Villarrica	3	750447	5645825	18H	-39.285082	-72.09628668	A	H	NA	NA	38.7	NA	NA	NA	NA	NA	green	Ara	Vil	1	FALSE	lightgreen	5514	5667	lightgreen	3	Araucanía
+483A	483	Metropolitana	Colina	2	340050	6321480	19H	-33.220534	-70.71641614	A	M	NA	NA	37	NA	NA	NA	NA	NA	red	Met	Col	1	FALSE	red3	10249	816	red3	2	Metropolitana
+486A	486	Maule	Colbún	2	281525	6046722	19H	-35.684996	-71.41426684	A		NA	NA	38	NA	NA	NA	NA	NA	red	Mau	Col	1	FALSE	salmon	5719	1372	salmon	2	Maule
+487A	487	Metropolitana	Lampa	2	318377	6324916	19H	-33.186147	-70.94819205	A	M	5.6	84.4	36.8	4.9	1.7	11	5.7	41.1	red	Met	Lam	1	FALSE	red3	5862	674	red3	2	Metropolitana
+488A	488	Metropolitana	Lampa	2	318377	6324916	19H	-33.186147	-70.94819205	A	M	5	77.7	38.4	6.4	1.9	11.4	6.3	43.9	red	Met	Lam	1	TRUE	red3	9563	999	red3	2	Metropolitana
+488B	488	Metropolitana	Lampa	2	318377	6324916	19H	-33.186147	-70.94819205	A	M	5	77.7	38.4	6.4	1.9	11.4	6.3	43.9	red	Met	Lam	2	TRUE	red3	6464	999	red3	2	Metropolitana
+490A	490	Metropolitana	Lampa	2	318377	6324916	19H	-33.186147	-70.94819205	A	M	5.4	78.2	35.3	5.4	1.8	10.9	5.6	44.2	red	Met	Lam	1	FALSE	red3	6683	650	red3	2	Metropolitana
+491A	491	Metropolitana	Lampa	2	318377	6324916	19H	-33.186147	-70.94819205	A	M	5.8	79.3	37	6.1	2.1	12.2	6.6	44.1	red	Met	Lam	1	TRUE	red3	6219	722	red3	2	Metropolitana
+491B	491	Metropolitana	Lampa	2	318377	6324916	19H	-33.186147	-70.94819205	A	M	5.8	79.3	37	6.1	2.1	12.2	6.6	44.1	red	Met	Lam	2	TRUE	red3	10558	722	red3	2	Metropolitana
+497A	497	Metropolitana	Lampa	2	318377	6324916	19H	-33.186147	-70.94819205	A	M	6.4	78.7	38.2	4.5	1.3	9.6	5.6	46	red	Met	Lam	1	FALSE	red3	5647	581	red3	2	Metropolitana
+498A	498	Metropolitana	Lampa	2	318377	6324916	19H	-33.186147	-70.94819205	A	M	6.4	79.8	37.8	5.2	1.8	9.9	6.7	44.3	red	Met	Lam	1	TRUE	red3	5708	806	red3	2	Metropolitana
+498B	498	Metropolitana	Lampa	2	318377	6324916	19H	-33.186147	-70.94819205	A	M	6.4	79.8	37.8	5.2	1.8	9.9	6.7	44.3	red	Met	Lam	2	TRUE	red3	5449	806	red3	2	Metropolitana
+501A	501	Metropolitana	Lampa	2	318377	6324916	19H	-33.186147	-70.94819205	A	M	6	76.3	39.5	5.7	1.5	12.1	6.8	45.4	red	Met	Lam	1	FALSE	red3	5979	528	red3	2	Metropolitana
+502A	502	Metropolitana	Lampa	2	318377	6324916	19H	-33.186147	-70.94819205	A	M	7	79	36.4	6.6	1.7	12.7	6.5	43.5	red	Met	Lam	1	FALSE	red3	4467	823	red3	2	Metropolitana
+505A	505	Metropolitana	Lampa	2	318377	6324916	19H	-33.186147	-70.94819205	A	M	NA	NA	NA	NA	NA	NA	NA	NA	red	Met	Lam	1	TRUE	red3	6147	1472	red3	2	Metropolitana
+505B	505	Metropolitana	Lampa	2	318377	6324916	19H	-33.186147	-70.94819205	A	M	NA	NA	NA	NA	NA	NA	NA	NA	red	Met	Lam	2	TRUE	red3	5447	1472	red3	2	Metropolitana
+506A	506	Metropolitana	Lampa	2	318377	6324916	19H	-33.186147	-70.94819205	A	M	NA	NA	NA	NA	NA	NA	NA	NA	red	Met	Lam	1	FALSE	red3	13142	663	red3	2	Metropolitana
+507A	507	Metropolitana	Lampa	2	318377	6324916	19H	-33.186147	-70.94819205	A	M	NA	NA	NA	NA	NA	NA	NA	NA	red	Met	Lam	1	TRUE	red3	8224	831	red3	2	Metropolitana
+507B	507	Metropolitana	Lampa	2	318377	6324916	19H	-33.186147	-70.94819205	A	M	NA	NA	NA	NA	NA	NA	NA	NA	red	Met	Lam	2	TRUE	red3	7462	831	red3	2	Metropolitana
+510A	510	Metropolitana	Lampa	2	318377	6324916	19H	-33.186147	-70.94819205	A	M	6.6	68.2	35.4	4.1	1.5	10.2	5.6	43.6	red	Met	Lam	1	FALSE	red3	5838	651	red3	2	Metropolitana
+513A	513	Metropolitana	Lampa	2	318377	6324916	19H	-33.186147	-70.94819205	A	M	6	69.8	36.5	5.9	1.5	12	5.6	45.4	red	Met	Lam	1	TRUE	red3	18796	202	red3	2	Metropolitana
+513B	513	Metropolitana	Lampa	2	318377	6324916	19H	-33.186147	-70.94819205	A	M	6	69.8	36.5	5.9	1.5	12	5.6	45.4	red	Met	Lam	2	TRUE	red3	17616	202	red3	2	Metropolitana
+514A	514	Metropolitana	Lampa	2	318377	6324916	19H	-33.186147	-70.94819205	A	M	6.6	77.6	36.4	6.1	1.9	11.2	5.8	41.5	red	Met	Lam	1	FALSE	red3	11225	741	red3	2	Metropolitana
+522A	522	Magallanes	Cameron	5	519244	4001025	19F	-54.116965	-68.70559422	A	H	8.8	82.6	37.8	4.9	1.5	11.9	5.8	43.3	cyan	Mag	Cam	1	FALSE	purple4	6542	3696	purple4	5	Cameron
+525A	525	Magallanes	Cameron	5	519244	4001025	19F	-54.116965	-68.70559422	A	H	11	80.6	39.6	5.3	1.7	13.4	5.4	44.9	cyan	Mag	Cam	1	TRUE	purple4	3280	1820	purple4	5	Cameron
+525B	525	Magallanes	Cameron	5	519244	4001025	19F	-54.116965	-68.70559422	A	H	11	80.6	39.6	5.3	1.7	13.4	5.4	44.9	cyan	Mag	Cam	2	TRUE	purple4	3430	1820	purple4	5	Cameron
+526A	526	Magallanes	Cameron	5	519244	4001025	19F	-54.116965	-68.70559422	A	M	8	86	38.8	5.8	1.6	12.2	4.8	45.1	cyan	Mag	Cam	1	TRUE	purple4	7119	3352	purple4	5	Cameron
+526B	526	Magallanes	Cameron	5	519244	4001025	19F	-54.116965	-68.70559422	A	M	8	86	38.8	5.8	1.6	12.2	4.8	45.1	cyan	Mag	Cam	2	TRUE	purple4	6782	3352	purple4	5	Cameron
+530A	530	Magallanes	Cameron	5	519244	4001025	19F	-54.116965	-68.70559422	A	H	11	85.6	39.1	5.2	1.5	12.3	3.9	45.9	cyan	Mag	Cam	1	FALSE	purple4	3542	3070	purple4	5	Cameron
+540A	540	Magallanes	Cameron	5	519244	4001025	19F	-54.116965	-68.70559422	A	H	8.8	80.4	39.6	6.2	1.5	10.8	5.6	47.2	cyan	Mag	Cam	1	TRUE	purple4	4956	2991	purple4	5	Cameron
+540B	540	Magallanes	Cameron	5	519244	4001025	19F	-54.116965	-68.70559422	A	H	8.8	80.4	39.6	6.2	1.5	10.8	5.6	47.2	cyan	Mag	Cam	2	TRUE	purple4	5740	2991	purple4	5	Cameron
+542A	542	Magallanes	Cameron	5	519244	4001025	19F	-54.116965	-68.70559422	A	M	7	77.9	32.6	5.7	1.2	11.5	6.4	43.5	cyan	Mag	Cam	1	TRUE	purple4	3052	3305	purple4	5	Cameron
+542B	542	Magallanes	Cameron	5	519244	4001025	19F	-54.116965	-68.70559422	A	M	7	77.9	32.6	5.7	1.2	11.5	6.4	43.5	cyan	Mag	Cam	2	TRUE	purple4	3837	3305	purple4	5	Cameron
+543A	543	Magallanes	Cameron	5	519244	4001025	19F	-54.116965	-68.70559422	A	M	7	76.8	37.5	6.1	1.7	9.2	4.4	43.1	cyan	Mag	Cam	1	TRUE	purple4	3122	1770	purple4	5	Cameron
+543B	543	Magallanes	Cameron	5	519244	4001025	19F	-54.116965	-68.70559422	A	M	7	76.8	37.5	6.1	1.7	9.2	4.4	43.1	cyan	Mag	Cam	2	TRUE	purple4	4180	1770	purple4	5	Cameron
+546A	546	Magallanes	Cameron	5	519244	4001025	19F	-54.116965	-68.70559422	A	H	11.9	86.9	38.8	5.6	1.8	9.7	6.1	48	cyan	Mag	Cam	1	FALSE	purple4	6002	6973	purple4	5	Cameron
+549A	549	Magallanes	Cameron	5	519244	4001025	19F	-54.116965	-68.70559422	A	M	7.8	84.7	38	5.1	1.7	10.3	4.6	41.8	cyan	Mag	Cam	1	FALSE	purple4	6359	3306	purple4	5	Cameron
+552A	552	Magallanes	Cameron	5	519244	4001025	19F	-54.116965	-68.70559422	A	H	10	80.4	36.9	6.2	1.7	10.8	5.6	45	cyan	Mag	Cam	1	TRUE	purple4	4142	1414	purple4	5	Cameron
+552B	552	Magallanes	Cameron	5	519244	4001025	19F	-54.116965	-68.70559422	A	H	10	80.4	36.9	6.2	1.7	10.8	5.6	45	cyan	Mag	Cam	2	TRUE	purple4	4373	1414	purple4	5	Cameron
+591A	591	Los Lagos	Puerto Montt	3	669092	5407426	18G	-41.450413	-72.97563916	A	M	NA	NA	37.7	NA	NA	NA	NA	NA	green	Lag	Mon	1	FALSE	darkolivegreen4	4370	2653	darkolivegreen4	3	Los Lagos
+592A	592	Los Lagos	Puerto Varas	3	672384	5420657	18G	-41.330658	-72.94001505	A	M	NA	NA	36.6	NA	NA	NA	NA	NA	green	Lag	Var	1	FALSE	darkolivegreen4	9154	1478	darkolivegreen4	3	Los Lagos
+679A	679	Biobio	San Fabian 	3	271758	5952019	19H	-36.535425	-71.549531			NA	NA	NA	NA	NA	NA	NA	NA	green	Bio	Fab	1	TRUE	chartreuse3	2571	1561	salmon	2	Maule
+679B	679	Biobio	San Fabian 	3	271758	5952019	19H	-36.535425	-71.549531			NA	NA	NA	NA	NA	NA	NA	NA	green	Bio	Fab	2	TRUE	chartreuse3	3755	1561	salmon	2	Maule
+689A	689	Metropolitana	San Miguel	2	346305	6291601	19H	-33.490726	-70.6544068	A		NA	NA	37	NA	NA	NA	NA	NA	red	Met	Mig	1	FALSE	red3	5136	4022	red3	2	Metropolitana
+700A	700	Valparaiso	San Felipe	2	336951	6376205	19H	-32.726856	-70.73995691	A	M	NA	NA	36	NA	NA	NA	NA	NA	red	Val	Fel	1	FALSE	pink	5020	3430	pink	2	Valparaiso
+702A	702	Araucanía	Villarrica	3	739843	5640907	18H	-39.332327	-72.21733907	A		NA	NA	36.8	NA	NA	NA	NA	NA	green	Ara	Vil	1	FALSE	lightgreen	3919	1881	lightgreen	3	Araucanía
+727A	727	Aysén	Coyhaique	4	731872	4949806	18G	-45.54847	-72.02953319	A		NA	NA	40.1	NA	NA	NA	NA	NA	blue	Ays	Coy	1	TRUE	lightblue	7671	718	lightblue	4	Coyhaique
+727B	727	Aysén	Coyhaique	4	731872	4949806	18G	-45.54847	-72.02953319	A		NA	NA	40.1	NA	NA	NA	NA	NA	blue	Ays	Coy	2	TRUE	lightblue	10038	718	lightblue	4	Coyhaique
+734A	734	Los Lagos	Maullin	3	616740	5391808	18G	-41.600315	-73.59914542	A		NA	NA	37.6	NA	NA	NA	NA	NA	green	Lag	Mau	1	FALSE	darkolivegreen4	30282	1605	darkolivegreen4	3	Los Lagos
+735A	735	Los Lagos	Maullin	3	616740	5391808	18G	-41.600315	-73.59914542	A	H	NA	NA	36.4	NA	NA	NA	NA	NA	green	Lag	Mau	1	TRUE	darkolivegreen4	6475	1738	darkolivegreen4	3	Los Lagos
+735B	735	Los Lagos	Maullin	3	616740	5391808	18G	-41.600315	-73.59914542	A	H	NA	NA	36.4	NA	NA	NA	NA	NA	green	Lag	Mau	2	TRUE	darkolivegreen4	5290	1738	darkolivegreen4	3	Los Lagos
+736A	736	Los Lagos	Maullin	3	616740	5391808	18G	-41.600315	-73.59914542	A	M	NA	NA	36.4	NA	NA	NA	NA	NA	green	Lag	Mau	1	FALSE	darkolivegreen4	5657	4299	darkolivegreen4	3	Los Lagos
+737A	737	Los Lagos	Maullin	3	616740	5391808	18G	-41.600315	-73.59914542	A	M	NA	NA	38	NA	NA	NA	NA	NA	green	Lag	Mau	1	FALSE	darkolivegreen4	4850	2339	darkolivegreen4	3	Los Lagos
+738A	738	Los Lagos	Maullin	3	616740	5391808	18G	-41.600315	-73.59914542	A		NA	NA	38	NA	NA	NA	NA	NA	green	Lag	Mau	1	TRUE	darkolivegreen4	24087	1044	darkolivegreen4	3	Los Lagos
+738B	738	Los Lagos	Maullin	3	616740	5391808	18G	-41.600315	-73.59914542	A		NA	NA	38	NA	NA	NA	NA	NA	green	Lag	Mau	2	TRUE	darkolivegreen4	19619	1044	darkolivegreen4	3	Los Lagos
+739A	739	Los Lagos	Maullin	3	616740	5391808	18G	-41.600315	-73.59914542	A		NA	NA	38.5	NA	NA	NA	NA	NA	green	Lag	Mau	1	FALSE	darkolivegreen4	14809	2090	darkolivegreen4	3	Los Lagos
+775A	775	Los Rios	Valdivia	3	650841	5592379	18H	-39.789315	-73.23833125	A		NA	NA	37.9	NA	NA	NA	NA	NA	green	Rio	Val	1	FALSE	chartreuse1	8724	1326	lightgreen	3	Los Rios
+961A	961	Biobio	San Ignacio	3	729777	5954208	18H	-36.533333	-72.43398946	A	M	NA	NA	36.6	NA	NA	NA	NA	NA	green	Bio	Ign	1	TRUE	chartreuse3	8024	2193	chartreuse3	3	Biobio
+961B	961	Biobio	San Ignacio	3	729777	5954208	18H	-36.533333	-72.43398946	A	M	NA	NA	36.6	NA	NA	NA	NA	NA	green	Bio	Ign	2	TRUE	chartreuse3	6948	2193	chartreuse3	3	Biobio
