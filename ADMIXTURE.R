@@ -1,9 +1,7 @@
 setwd("S:/My Libraries/2017_work/BatRADAug2019/admixture")
 
 
-
 infile="batrad.var.flt.qual20.snp.maf0.01.ac2.bed2.4.Q"
-
 indfile="batrad.var.flt.qual20.snp.maf0.01.ac2.bed2.fam"
 
 indfile=read.table(indfile,stringsAsFactors=F)
@@ -32,17 +30,11 @@ dim(tbl)
 barplot(t(as.matrix(tbl)), col=c("green","red","blue1","purple3"), xlab="", ylab="Ancestry", border=NA,
 	names=paste(design$region_num_corr,design$sample_short),las=2,cex.names=0.7)
 
-
-
-
 ####################################################################
 #
 #			fraction of hybrids in each region
 
-
 colnames(tbl)=c("green","red","blue1","purple3")
-head(tbl)
-
 
 region_ancestry=data.frame(
 	region_num=design$region_num_corr[!duplicated(design$region_corr)],
