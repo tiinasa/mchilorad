@@ -45,13 +45,13 @@ design$regioncol[design$region=="Valparaiso"]="pink"
 design$regioncol[design$region=="Maule"]="salmon"
 
 #region 3 greens
-design$regioncol[design$region=="Araucanía"]="lightgreen"
+design$regioncol[design$region=="AraucanÃ­a"]="lightgreen"
 design$regioncol[design$region=="Biobio"]="chartreuse3"
 design$regioncol[design$region=="Los Lagos"]="darkolivegreen4"
 design$regioncol[design$region=="Los Rios"]="chartreuse1"
 
 #region 4 blues
-design$regioncol[design$region=="Aysén"]="lightblue"
+design$regioncol[design$region=="AysÃ©n"]="lightblue"
 design$regioncol[design$comuna %in% c("Puerto Aysen")]="blue"
 
 #region 5 cyans
@@ -430,7 +430,7 @@ design$regioncol_corr[which(design$sample_short=="679")]="salmon"
 design$region_num_corr[which(design$sample_short=="679")]=2
 design$region_corr[which(design$regioncol_corr=="purple4")]="Cameron"
 design$region_corr[which(design$regioncol_corr=="lightblue")]="Coyhaique"
-design$region_corr[which(design$region=="Los Rios")]="Araucanía"
+design$region_corr[which(design$region=="Los Rios")]="AraucanÃ­a"
 
 ##############################################################
 #
@@ -724,30 +724,6 @@ median(n.pop.summ[[1]]$Hexp[which(n.pop.isPoly[[1]] == T & n.pop.isHwe2.min >= 0
 median(n.pop.summ[[2]]$Hexp[which(n.pop.isPoly[[2]] == T & n.pop.isHwe2.min >= 0.05)])
 median(n.pop.summ[[4]]$Hexp[which(n.pop.isPoly[[4]] == T & n.pop.isHwe2.min >= 0.05)])
 
-#F-statistic distribution F=Hobs - Hexp)/Hexp.
-Hobs.pop2=n.pop.summ[[3]]$Hobs[which(n.pop.isPoly[[3]] == T & n.pop.isHwe2.min >= 0.05)]
-Hobs.pop3=n.pop.summ[[1]]$Hobs[which(n.pop.isPoly[[1]] == T & n.pop.isHwe2.min >= 0.05)]
-Hobs.pop4=n.pop.summ[[2]]$Hobs[which(n.pop.isPoly[[2]] == T & n.pop.isHwe2.min >= 0.05)]
-Hobs.pop5=n.pop.summ[[4]]$Hobs[which(n.pop.isPoly[[4]] == T & n.pop.isHwe2.min >= 0.05)]
-Hexp.pop2=n.pop.summ[[3]]$Hexp[which(n.pop.isPoly[[3]] == T & n.pop.isHwe2.min >= 0.05)]
-Hexp.pop3=n.pop.summ[[1]]$Hexp[which(n.pop.isPoly[[1]] == T & n.pop.isHwe2.min >= 0.05)]
-Hexp.pop4=n.pop.summ[[2]]$Hexp[which(n.pop.isPoly[[2]] == T & n.pop.isHwe2.min >= 0.05)]
-Hexp.pop5=n.pop.summ[[4]]$Hexp[which(n.pop.isPoly[[4]] == T & n.pop.isHwe2.min >= 0.05)]
-
-#is F significantly different from 0 (get p-value)
-par(mfrow=c(2,2))
-hist((Hobs.pop2-Hexp.pop2)/Hexp.pop2,main="F statistic, Pop 2",ylim=c(0,15000))
-abline(v=0.01154629)
-abline(v=0,lty="dashed")
-hist((Hobs.pop3-Hexp.pop3)/Hexp.pop3,main="F statistic, Pop 3",ylim=c(0,15000))
-abline(v=0.03867853)
-abline(v=0,lty="dashed")
-hist((Hobs.pop4-Hexp.pop4)/Hexp.pop4,main="F statistic, Pop 4",ylim=c(0,15000))
-abline(v=0.06856375)
-abline(v=0,lty="dashed")
-hist((Hobs.pop5-Hexp.pop5)/Hexp.pop5,main="F statistic, Pop 5",ylim=c(0,15000))
-abline(v=0.05967495)
-abline(v=0,lty="dashed")
 
 wilcox.test((Hobs.pop2-Hexp.pop2)/Hexp.pop2,conf.int = TRUE,exact=F)
 wilcox.test((Hobs.pop3-Hexp.pop3)/Hexp.pop3,conf.int = TRUE)
@@ -852,18 +828,25 @@ for(i in 1:1000) {
 	region_3_bs_hobs[i]=mean(het.perregion.perc[region3_s,2])
 	region_4_bs_hobs[i]=mean(het.perregion.perc[region4_s,3])
 	region_5_bs_hobs[i]=mean(het.perregion.perc[region5_s,4])
+	
+	this.hexp2=2*af.ref.perregion[region2_s,1]*(1-af.ref.perregion[region2_s,1])
+	this.hexp3=2*af.ref.perregion[region3_s,2]*(1-af.ref.perregion[region3_s,2])
+	this.hexp4=2*af.ref.perregion[region4_s,3]*(1-af.ref.perregion[region4_s,3])
+	this.hexp5=2*af.ref.perregion[region5_s,4]*(1-af.ref.perregion[region5_s,4])
 
-	region_2_bs_hexp[i]=mean(2*af.ref.perregion[region2_s,1]*(1-af.ref.perregion[region2_s,1]))
-	region_3_bs_hexp[i]=mean(2*af.ref.perregion[region3_s,2]*(1-af.ref.perregion[region3_s,2]))
-	region_4_bs_hexp[i]=mean(2*af.ref.perregion[region4_s,3]*(1-af.ref.perregion[region4_s,3]))
-	region_5_bs_hexp[i]=mean(2*af.ref.perregion[region5_s,4]*(1-af.ref.perregion[region5_s,4]))
+	region_2_bs_hexp[i]=mean(this.hexp2)
+	region_3_bs_hexp[i]=mean(this.hexp3)
+	region_4_bs_hexp[i]=mean(this.hexp4)
+	region_5_bs_hexp[i]=mean(this.hexp5)
+
+	region_2_bs_f[i]=mean((this.hexp2-het.perregion.perc[region2_s,1])/this.hexp2)
+	region_3_bs_f[i]=mean((this.hexp3-het.perregion.perc[region3_s,2])/this.hexp3)
+	region_4_bs_f[i]=mean((this.hexp4-het.perregion.perc[region4_s,3])/this.hexp4)
+	region_5_bs_f[i]=mean((this.hexp5-het.perregion.perc[region5_s,4])/this.hexp5)
 
 }
 
-region2_bs_inbreeding_coefficient=(region_2_bs_hexp-region_2_bs_hobs)/region_2_bs_hexp
-region3_bs_inbreeding_coefficient=(region_3_bs_hexp-region_3_bs_hobs)/region_3_bs_hexp
-region4_bs_inbreeding_coefficient=(region_4_bs_hexp-region_4_bs_hobs)/region_4_bs_hexp
-region5_bs_inbreeding_coefficient=(region_5_bs_hexp-region_5_bs_hobs)/region_5_bs_hexp
+
 
 par(mfrow=c(1,1))
 plot(2:5,c(mean(region_2_bs_hexp),mean(region_3_bs_hexp),mean(region_4_bs_hexp,na.rm=T),mean(region_5_bs_hexp,na.rm=T)),
@@ -897,10 +880,10 @@ median(region_2_bs_hobs)
 median(region_3_bs_hobs)
 median(region_4_bs_hobs)
 median(region_5_bs_hobs)
-median(region2_bs_inbreeding_coefficient)
-median(region3_bs_inbreeding_coefficient)
-median(region4_bs_inbreeding_coefficient)
-median(region5_bs_inbreeding_coefficient)
+median(region_2_bs_f)
+median(region_3_bs_f)
+median(region_4_bs_f)
+median(region_5_bs_f)
 
 
 quantile(region_2_bs_hexp,c(0.025,0.975))
@@ -913,11 +896,11 @@ quantile(region_3_bs_hobs,c(0.025,0.975))
 quantile(region_4_bs_hobs,c(0.025,0.975))
 quantile(region_5_bs_hobs,c(0.025,0.975))
 
-quantile(region2_bs_inbreeding_coefficient,c(0.025,0.975))
-quantile(region3_bs_inbreeding_coefficient,c(0.025,0.975))
-quantile(region4_bs_inbreeding_coefficient,c(0.025,0.975))
-quantile(region5_bs_inbreeding_coefficient,c(0.025,0.975))
-
+quantile(region_2_bs_f,c(0.025,0.975))
+quantile(region_3_bs_f,c(0.025,0.975))
+quantile(region_4_bs_f,c(0.025,0.975))
+quantile(region_5_bs_f,c(0.025,0.975))
+					  
 #plot Hops adegenet + manual estimates
 plot(het.perregion.perc[,1],n.pop.summ[[3]]$Hobs)
 cor.test(het.perregion.perc[,1],n.pop.summ[[3]]$Hobs[which(n.pop.isHwe2.min >= 0.05)])
